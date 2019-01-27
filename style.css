@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 85%;
   margin: auto;
   overflow: hidden;
 }
@@ -25,7 +25,7 @@ header{
   color: white;
   min-height: 70px;
   padding-top: 30px;
-  border-bottom: #03dac6 3px solid;
+  border-bottom: #e8491d 3px solid;
 }
 
 header a{
@@ -62,4 +62,11 @@ header .highlight , header .current a{
 header a:hover{
   color: #dddddd;
   font-weight: bold;
+}
+
+/*Login*/
+#login{
+  background: url("./img/dragon.jpg") no-repeat 0 -100px;
+  background-size: auto 1400px;
+  min-height: 400px;
 }
