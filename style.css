@@ -5,7 +5,13 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  background-color: #35424a;
+  height: 100%;
+}
+
+#about{
   background-color: #f4f4f4;
+
 }
 
 .container{
@@ -17,6 +23,23 @@ body{
 ul{
   margin: 0;
   padding: 0;
+}
+
+aside{
+  float: right;
+  width: 30%;
+}
+
+article{
+  float: left;
+  width: 65%;
+}
+
+.button1{
+  height: 38px;
+  border-style: none;
+  color: white;
+  background-color: #e8491d;
 }
 
 /*Header*/
@@ -66,7 +89,86 @@ header a:hover{
 
 /*Login*/
 #login{
-  background: url("./img/dragon.jpg") no-repeat 0 -100px;
-  background-size: auto 1400px;
+  background: url("./img/dragon.jpg") no-repeat 0 -80px;
+  background-size: auto 330%;
   min-height: 400px;
+}
+
+/*Newsletter*/
+#newsletter{
+  color: white;
+  background-color: #35424a;
+  border-top: #e8491d 3px solid;
+  border-bottom: #e8491d 3px solid;
+}
+
+section h2{
+  float:left;
+}
+
+#newsform{
+  padding-top: 20px;
+  float:right;
+}
+
+#newsletter input[type="email"]{
+  height: 28px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 28px;
+  width:200px;
+  border-radius: 0;
+  border: none;
+}
+
+/*Footer*/
+footer{
+  background-color: #35424a;
+  color:#ffffff;
+  text-align: center;
+  height: 10%
+}
+
+/*MediaStuff*/
+@media(max-width: 768px){
+  body{
+    float: none;
+  }
+  aside{
+    float: none
+  }
+  article{
+    float: none
+  }
+  header li{
+    float: none;
+    padding: 0 20px 0 20px;
+  }
+
+  header #brand{
+    float:none;
+  }
+
+  header #brand h1{
+    margin:0;
+  }
+
+  header nav{
+    float:none;
+    margin-top: 10px;
+  }
+  section h2{
+    float:none;
+  }
+
+  #newsform{
+    padding-top: 20px;
+    float:none;
+  }
+
+  .button1{
+    width:208px;
+  }
 }
